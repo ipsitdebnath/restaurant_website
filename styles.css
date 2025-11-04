@@ -1,11 +1,11 @@
 body {
-  background-color: beige;
+  background-color: white;
   height: 100vh;
   margin: 0;
   width: auto;
 }
 header {
-  background-color: brown;
+  background-color: white;
   position: sticky;
 }
 .button {
@@ -19,7 +19,7 @@ header {
 a {
   padding: 10px;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 nav {
   padding: 20px;
@@ -30,7 +30,7 @@ nav {
   margin: 20px;
   font-size: 50px;
   font-style: italic;
-  color: white;
+  color: red;
 }
 .quote {
   text-align: center;
@@ -66,4 +66,10 @@ border: 5px solid coral;
 display: flex;
 border-radius: 40px;
 width: 300px;
+}
+footer{
+background-color: black;
+color: white;
+padding: 5px;
+text-align: center;
 }
