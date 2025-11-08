@@ -3,10 +3,12 @@ body {
   height: 100vh;
   margin: 0;
   width: auto;
+  padding: 0;
 }
 header {
   background-color: white;
   position: sticky;
+  top: 0;
 }
 .button {
   list-style: none;
@@ -19,18 +21,16 @@ header {
 a {
   padding: 10px;
   text-decoration: none;
+  font-size: 20px;
+  align-content: center;
   color: black;
 }
 nav {
-  padding: 20px;
+  padding: 10px;
   display: flex;
 }
-.name {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+.name img {
   margin: 20px;
-  font-size: 50px;
-  font-style: italic;
-  color: red;
 }
 .quote {
   text-align: center;
@@ -48,28 +48,50 @@ nav {
   font-size: 40px;
   color: darkblue;
   font-style: italic;
-margin: 10px;
+  margin: 10px;
 }
 .type {
   font-size: 25px;
-list-style: none;
-margin: 0px;
+  list-style: none;
+  margin: 0px;
+}
+.dishes {
+  padding-left: 10%;
+  padding-top: 2%;
+  list-style: none;
+}
+section {
+  border: 5px solid coral;
+  display: flex;
+  border-radius: 40px;
+  width: 300px;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+.grid-container{
+display: grid;
+grid-template-columns: 1fr 10fr 1fr;
+}
+.socials{
+flex-direction: row;
+justify-content: center;
+align-content: center;
+}
+.socials img{
+margin-top: 40px;
+padding-left: 30%;
+}
+.ecom{
+flex-direction: row;
+justify-content: center;
+align-content: center;
 
 }
-.dishes{
-padding-left:10%;
-padding-top: 2%;
-list-style: none;
-}
-section{
-border: 5px solid coral;
-display: flex;
-border-radius: 40px;
-width: 300px;
-}
-footer{
-background-color: black;
-color: white;
-padding: 5px;
-text-align: center;
+.ecom img{
+margin-top: 40px;
+margin: 30px;
 }
