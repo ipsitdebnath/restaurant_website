@@ -3,133 +3,93 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aminia-The Best In Town</title>
+    <title>Aminia - The Best In Town</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
     <header>
       <nav>
-        <img
-          class="name"
-          src="logo.png"
-          alt="image.png"
-          height="64px"
-          width="180px"
-        />
-        <ul class="button">
-          <li><a href="">Home</a></li>
-          <li><a href="">About Us</a></li>
-          <li><a href="">Our Menu</a></li>
-          <li><a href="">Branches</a></li>
-          <li><a href="">Contact Us</a></li>
-          <li>
-            <a href=""><img src="logo-ani.svg" height="50" width="40" /></a>
-          </li>
+        <img class="logo" src="logo.png" alt="Aminia Logo" />
+        <ul style="list-style-type: none;"class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Menu</a></li>
+          <li><a href="#">Branches</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <a href="#"><img src="logo-ani.svg" alt="Icon" /></a>
         </ul>
       </nav>
     </header>
+
     <div class="grid-container">
       <div class="socials">
-        <div><a href="#"><img src="fb.png" alt="" width="30px" height="30px"/></a></div>
-        <div><a href="#"><img src="x1.png" alt="" width="30px" height="30px"/></a></div>
-        <div><a href="#"><img src="ig.png" alt="" width="30px" height="30px"/></a></div>
+        <a href="#"><img src="fb.png" alt="Facebook" /></a>
+        <a href="#"><img src="x1.png" alt="Twitter" /></a>
+        <a href="#"><img src="ig.png" alt="Instagram" /></a>
       </div>
-      <div>
-        <video autoplay muted loop height="100%" width="100%">
-          <source src="aminia.mp4" />
+
+      <div class="hero-video">
+        <video autoplay muted loop>
+          <source src="aminia.mp4" type="video/mp4" />
         </video>
       </div>
+
       <div class="ecom">
-        <div><a href="#"><img src="zom.png" alt="" width="100px" height="100px"/></a></div>
-        <div><a href="#"><img src="Swiggy.png" alt="" width="100px" height="100px"/></a></div>
+        <a href="#"><img src="zom.png" alt="Zomato" /></a>
+        <a href="#"><img src="Swiggy.png" alt="Swiggy" /></a>
       </div>
     </div>
-    <section id="menu">
-      <h2 class="heading">Starters</h2>
-      <ul class="type">
-        <li>Veg</li>
-        <ul class="dishes">
-          <li>Paneer Pakora</li>
-          <li>Aloo Pakora</li>
-        </ul>
-        <li>Non-Veg</li>
-        <ul class="dishes">
-          <li>Chicken Pakora</li>
-          <li>Fish Fry</li>
-        </ul>
-      </ul>
-      <h2 class="heading">Continental</h2>
-      <ul class="type">
-        <li>Veg</li>
-        <ul class="dishes">
-          <li>White Sauce Pasta</li>
-          <li>Vegetable Au Grin</li>
-        </ul>
-        <li>Non-Veg</li>
-        <ul class="dishes">
-          <li>Oeufs Mimosa</li>
-          <li>Italian Starter Bruschetta</li>
-        </ul>
-      </ul>
+
+    <section class="menu_section">
+      <div class="menu_nav">
+        <a href="#">Recommended</a>
+        <a href="#">Classic</a>
+        <a href="#">Chef’s Special</a>
+      </div>
+
+      <div class="menu_card">
+        <div class="card">
+          <img
+            src="https://www.aminia.co.in/assets/images/cuisine/newItems/muttonbiryani.jpg"
+            alt="Biryani"
+          />
+          <div>
+            <h1>Biryani</h1>
+            <p>A royal dish that needs no introduction from Aminia.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://www.aminia.co.in/assets/images/cuisine/newItems/firni.jpg"
+            alt="Firni"
+          />
+          <div>
+            <h1>Firni</h1>
+            <p>A creamy dessert that defines tradition and taste.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="https://www.aminia.co.in/assets/images/cuisine/newItems/muttonbiryani.jpg"
+            alt="Biryani"
+          />
+          <div>
+            <h1>Chicken Biryani</h1>
+            <p>Fragrant rice layered with tender chicken and spices.</p>
+          </div>
+        </div>
+      </div>
     </section>
-    <section id="menu">
-      <h2 class="heading">Mughlai</h2>
-      <ul class="type">
-        <li>Veg</li>
-        <ul class="dishes">
-          <li>Paneer Butter Masala</li>
-          <li>Paneer Biryani</li>
-        </ul>
-        <li>Non-Veg</li>
-        <ul class="dishes">
-          <li>Chicken Butter Masala</li>
-          <li>Chicken Handi</li>
-        </ul>
-      </ul>
-      <h2 class="heading">Chinese</h2>
-      <ul class="type">
-        <li>Veg</li>
-        <ul class="dishes">
-          <li>Hot & Sour Soup</li>
-          <li></li>
-        </ul>
-        <li>Non-Veg</li>
-        <ul class="dishes">
-          <li>xyz</li>
-          <li>abc</li>
-        </ul>
-      </ul>
-    </section>
-    <section id="menu">
-      <h2 class="heading">South-Indian</h2>
-      <ul class="type">
-        <li>Veg</li>
-        <ul class="dishes">
-          <li>xyz</li>
-          <li>abc</li>
-        </ul>
-        <li>Non-Veg</li>
-        <ul class="dishes">
-          <li>xyz</li>
-          <li>abc</li>
-        </ul>
-      </ul>
-      <h2 class="heading">Soups</h2>
-      <ul class="type">
-        <li>Veg</li>
-        <ul class="dishes">
-          <li>xyz</li>
-          <li>abc</li>
-        </ul>
-        <li>Non-Veg</li>
-        <ul class="dishes">
-          <li>xyz</li>
-          <li>abc</li>
-        </ul>
-      </ul>
-    </section>
+
     <footer>
-      <p>2025 Aminia-Restaurant and Co. || All rights reserved</p>
+      <p>© 2025 Aminia Restaurant and Co. | All Rights Reserved</p>
     </footer>
   </body>
 </html>
