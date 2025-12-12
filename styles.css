@@ -181,8 +181,8 @@ video {
 footer {
   text-align: center;
   font-size: 14px;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: rgb(242,242,242);
   padding: 15px;
   margin-top: 40px;
 }
@@ -241,5 +241,122 @@ footer {
   .menu_nav {
     flex-direction: column;
     gap: 10px;
+  }
+}
+@media (max-width: 900px) {
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  nav img.logo {
+    height: 50px;
+  }
+}
+
+@media (max-width: 820px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .socials,
+  .ecom {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .socials img, .ecom img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .ecom img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  nav {
+    flex-direction: column;
+    gap: 14px;
+    padding: 10px 15px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  nav a {
+    font-size: 14px;
+    margin: 0 10px;
+  }
+
+  nav img.logo {
+    height: 45px;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  video {
+    border-radius: 4px;
+  }
+
+  .menu_nav {
+    flex-direction: column;
+    gap: 12px;
+    font-size: 15px;
+  }
+
+  .menu_card {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .card img {
+    width: 100%;
+    height: 170px;
+    margin: 0 0 10px 0;
+  }
+
+  .card h1 {
+    font-size: 18px;
+  }
+
+  .card p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 380px) {
+  nav a {
+    font-size: 12.5px;
+  }
+
+  .menu_nav a {
+    font-size: 13px;
+  }
+
+  .socials img, .ecom img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .ecom img {
+    width: 60px;
+    height: 60px;
   }
 }
